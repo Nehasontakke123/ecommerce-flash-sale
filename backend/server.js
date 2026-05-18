@@ -31,6 +31,7 @@ async function bootstrap() {
   });
 }
 
+// हे server startup errors handle करण्यासाठी वापरलं आहे ✅
 bootstrap().catch((error) => {
   console.error("Server bootstrap failed", error);
   process.exit(1);
